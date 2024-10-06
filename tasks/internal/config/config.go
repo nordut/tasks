@@ -25,7 +25,7 @@ type HTTPServer struct {
 	Address string `yaml:"address" env-default:"0.0.0.0:8080"`
 }
 
-func getActualLevelConfig(configPath *string) error {
+func SetActualLevelConfig(configPath *string) error {
 	configDirPath := os.Getenv("CONFIG_DIRECTORY")
 	if configDirPath == "" {
 		log.Fatal("CONFIG_DIRECTORY is not set")
@@ -45,7 +45,7 @@ func getActualLevelConfig(configPath *string) error {
 func MustLoad() *Config {
 	var configPath string
 
-	err := getActualLevelConfig(&configPath)
+	err := SetActualLevelConfig(&configPath)
 	if err != nil {
 		log.Fatal("Config files not found", err)
 	}

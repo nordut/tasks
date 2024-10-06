@@ -22,13 +22,12 @@ func NewConnection(cfg *config.Config) (*Storage, error) {
 	connStr := fmt.Sprintf("postgres://%s:%s@%s:%s/%s",
 		cfg.Postgres.Username, cfg.Postgres.Password, cfg.Postgres.Host, cfg.Postgres.Port, cfg.Postgres.DB)
 
-	dbpool, err := pgxpool.New(context.Background(), connStr)
+	dbPool, err := pgxpool.New(context.Background(), connStr)
 	if err != nil {
-		// log.Fatalf завершает программу, лучше возвращать ошибку
 		return nil, fmt.Errorf("unable to create connection pool: %v", err)
 	}
 
-	return &Storage{Conn: dbpool}, nil
+	return &Storage{Conn: dbPool}, nil
 }
 
 func (s *Storage) GetTasks() ([]Task, error) {

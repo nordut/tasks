@@ -13,7 +13,6 @@ import (
 	"github.com/stretchr/testify/mock"
 )
 
-// Mock StorageInterface
 type MockStorage struct {
 	mock.Mock
 }
@@ -159,6 +158,7 @@ func TestApp_UpdateTaskHandler(t *testing.T) {
 	req := httptest.NewRequest(http.MethodPost, "/tasks/update/"+taskID, form)
 	req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationForm)
 	rec := httptest.NewRecorder()
+
 	c := e.NewContext(req, rec)
 	c.SetPath("/tasks/update/:id")
 	c.SetParamNames("id")
