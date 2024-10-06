@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Page</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Tasks</h1>
+<div class="task-actions">
+    <form action="/tasks/new" method="GET" style="display:inline;">
+        <button type="submit" class="add-btn">Добавить задачу</button>
+    </form>
+</div>
+<ul>
+    {{ range .tasks }}
+    <li>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
+        <p>Status:
+            <span class="{{ if .IsDone }}done{{ else }}not-done{{ end }}">
+                {{ if .IsDone }}Done{{ else }}Not Done{{ end }}
+            </span>
+        </p>
+        <div class="task-actions">
+            <form action="/tasks/edit/{{ .ID }}" method="GET" style="display:inline;">
+                <button type="submit" class="edit-btn">Редактировать</button>
+            </form>
+
+            <form action="/tasks/delete/{{ .ID }}" method="POST" style="display:inline;" onsubmit="return confirm('Вы уверены, что хотите удалить задачу?');">
+                <button type="submit" class="delete-btn">Удалить</button>
+            </form>
+        </div>
+    </li>
+    {{ else }}
+    <p>No tasks available.</p>
+    {{ end }}
+</ul>
+
+</body>
+</html>

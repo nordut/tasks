@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Task</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Создать новую задачу</h1>
+
+<form action="/tasks/create" method="POST">
+    <div>
+        <label for="title">Название:</label>
+        <input type="text" id="title" name="title" required>
+    </div>
+    <div>
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" required></textarea>
+    </div>
+    <div class="task-actions">
+        <button type="submit" class="create-btn">Создать задачу</button>
+        <a href="/" class="cancel-btn">Отмена</a>
+    </div>
+</form>
+
+</body>
+</html>

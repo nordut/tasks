@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Редактировать задачу</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<h1>Редактировать задачу</h1>
+
+<form action="/tasks/update/{{ .task.ID }}" method="POST">
+  <div>
+    <label for="title">Название:</label>
+    <input type="text" id="title" name="title" value="{{ .task.Title }}" required>
+  </div>
+  <div>
+    <label for="description">Описание:</label>
+    <textarea id="description" name="description" required>{{ .task.Description }}</textarea>
+  </div>
+  <div>
+    <label for="is_done">Задача выполнена:</label>
+    <input type="checkbox" id="is_done" name="is_done" {{ if .task.IsDone }}checked{{ end }}>
+  </div>
+  <div class="task-actions">
+    <button type="submit" class="save-btn">Сохранить изменения</button>
+    <a href="/" class="cancel-btn">Отмена</a>
+  </div>
+</form>
+
+</body>
+</html>
