@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17af1c5b-d3bb-4b4f-93d9-5bf073561eb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrate_script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/TODOList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/config/settings.local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/config/settings.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/handlers/handlers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/handlers/handlers_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/storage/postgres/postgres.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/edit_task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/new_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.23.1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tasks" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2msMbwb2Rb6vD5QNKE2FA54Exc8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.TODOList/Dockerfile.executor": "Run",
+    "Docker.docker-compose.yml.go-service: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.postgres: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Docker.tasks/Dockerfile.executor": "Run",
+    "Docker.tasks/Dockerfile: Compose Deployment.executor": "Run",
+    "Go Build.go build TaskManager.executor": "Run",
+    "Go Build.go build someTaskProject TaskManager.executor": "Run",
+    "Go Build.go build someTaskProject.executor": "Run",
+    "Go Test.TestApp_DeleteTaskHandler in TODOList/internal/handlers.executor": "Debug",
+    "Go Test.TestApp_DeleteTaskHandler_Error in TODOList/internal/handlers.executor": "Debug",
+    "Go Test.TestApp_EditTaskHandler in TODOList/internal/handlers.executor": "Run",
+    "Go Test.TestApp_UpdateTaskHandler in TODOList/internal/handlers.executor": "Run",
+    "Go Test.TestCreateTaskHandler in TODOList/internal/handlers.executor": "Run",
+    "Go Test.TestHomeHandler in TODOList/internal/handlers.executor": "Run",
+    "Go Test.handlers_test.go.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "<unknown>",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/home/nora/GolandProjects/someTaskProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/nora/GolandProjects/someTaskProject/main.go",
+    "settings.editor.selected.configurable": "goland.project.structure"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TaskManager/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/TODOList" />
+      <recent name="$PROJECT_DIR$/TODOList/static" />
+      <recent name="$PROJECT_DIR$/TODOList/view" />
+      <recent name="$PROJECT_DIR$/TaskManager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/TaskManager" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/TaskManager" />
+      <filePath value="$PROJECT_DIR$/TaskManager" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build TaskManager" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/tasks" />
+      <envs>
+        <env name="CONFIG_DIRECTORY" value="./config" />
+      </envs>
+      <kind value="DIRECTORY" />
+      <package value="TaskManager" />
+      <directory value="$PROJECT_DIR$/tasks" />
+      <filePath value="$PROJECT_DIR$/../someTaskProject|$PROJECT_DIR$/TaskManager" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/TaskManager" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/TaskManager" />
+      <filePath value="$PROJECT_DIR$/TaskManager" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handlers_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tasks" />
+      <working_directory value="$PROJECT_DIR$/TODOList/internal/handlers" />
+      <root_directory value="$PROJECT_DIR$/TODOList" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/TaskManager" />
+      <filePath value="$PROJECT_DIR$/TODOList/internal/handlers/handlers_test.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.go-service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="go-service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="tasks/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="tasks/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.tasks/Dockerfile: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.go-service: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Go Build.go build TaskManager" />
+      <item itemvalue="Go Test.handlers_test.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.tasks/Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.go-service: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.postgres: Compose Deployment" />
+        <item itemvalue="Go Test.handlers_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tasks/internal/handlers/handlers.go</url>
+          <line>44</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/tasks/internal/handlers/handlers_test.go</url>
+          <line>123</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
