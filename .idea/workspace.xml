@@ -4,37 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17af1c5b-d3bb-4b4f-93d9-5bf073561eb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrate_script.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/TODOList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/config/settings.local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/config/settings.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/handlers/handlers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/handlers/handlers_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/internal/storage/postgres/postgres.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/edit_task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/tasks/view/new_task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/.gitignore" afterDir="false" />
+    <list default="true" id="17af1c5b-d3bb-4b4f-93d9-5bf073561eb5" name="Changes" comment="files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/.idea/TODOList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/.idea/modules.xml" beforeDir="false" />
     </list>
+    <list id="ac2f9d70-04c8-450c-a0bf-13201045c416" name="donotpush" comment="donotpush" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +28,7 @@
   </component>
   <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.23.1" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/tasks" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -84,7 +62,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "<unknown>",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "last_opened_file_path": "/home/nora/GolandProjects/someTaskProject",
     "node.js.detected.package.eslint": "true",
@@ -247,6 +225,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
