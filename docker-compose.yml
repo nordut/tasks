@@ -6,8 +6,7 @@ services:
     ports:
       - "5400:5432"
     volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
-      - ./migrate_script.sh:/docker-entrypoint-initdb.d/migrate_script.sh
+      - ./migrate_script.sh:/migrate/migrate_script.sh
     environment:
       - POSTGRES_PASSWORD=password
       - POSTGRES_USER=username
